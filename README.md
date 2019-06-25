@@ -8,8 +8,8 @@ Please note that we are generating an static page. Just place text and/or pictur
 
 ##Bonus points for:
 ---
--not using screenshots and img tags
--Anything that Google treats as an image can be recreated with an image. Everything else should be coded.
--Working links
--HTML5 semantic elements
--W3C validated HTML and CSS
+- Not using screenshots and img tags
+- Anything that Google treats as an image can be recreated with an image. Everything else should be coded.
+- Working links
+- HTML5 semantic elements
+- W3C validated HTML and CSS
