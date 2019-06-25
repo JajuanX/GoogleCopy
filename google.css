@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 500px;
+  margin: auto;
+}
+
+.navBar, .navBarFooter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr) 1fr 1fr );
+  grid-gap: 100px;
+}
+.navBar >.buttons:last-child {
+  text-align: right;
+}
+
+.navBarFooter >.buttons:last-child {
+  text-align: right;
+}
+.buttons {
+  justify-items: center;
+
+}
+button:hover {
+  border: 1px solid darkgrey;
+}
+
+main {
+  text-align: center;
+  margin-top: 90px;
+}
+
+#profilePic {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+button{
+  border: none;
+  text-decoration: none;
+  background-color: #ededed;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  color: #595959;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: #595959;
+
+}
+a:visited {
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+input {
+  height: 25px;
+  margin-top: 20px;
+
+}
+nav {
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e5e5e5;
+  color: white;
+  padding: 10px;
+  border-top: 0.2px solid #b2b2b2;
+}
+h1 {
+  font-size: 50px;
+}
